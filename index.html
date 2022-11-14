@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="reset.css" />
+	<link rel="stylesheet" href="style.css" />
+	<title>Cost Calculator</title>
+</head>
+<body>
+	<div class="fill"></div>
+	<div class="container">
+		<form action="#" class="form form1">
+			<div class="form__item">
+				<h2 class="heading">Выберите свой тариф</h2>
+				<ul class="switcher">
+					<li class="switcher__item">
+						<input type="radio" name="tariff" id="economy" class="tariff" value="economy" />
+						<label for="economy">Эконом</label>
+					</li>
+					<li class="switcher__item">
+						<input type="radio" name="tariff" id="comfort" class="tariff" value="comfort" checked="checked" />
+						<label for="comfort">Комфорт</label>
+					</li>
+					<li class="switcher__item">
+						<input type="radio" name="tariff" id="business" class="tariff" value="business" />
+						<label for="business">Бизнес</label>
+					</li>
+					<li class="switcher__item">
+						<input type="radio" name="tariff" id="premium" class="tariff" value="premium" />
+						<label for="premium">Премиум</label>
+					</li>
+				</ul>
+			</div>
+			<div class="form__item">
+				<h2 class="heading">На сколько часов арендуем (минимум 2 часа)</h2>
+				<div class="slider">
+					<input type="range" name="time" id="time" step="1" min="2" max="96" value="2" />
+					<output id="volume" for="time">2</output>
+				</div>
+			</div>
+			<div class="form__item">
+				<h2 class="heading">Дополнительные параметры</h2>
+				<div>
+					<div class="option__item">
+						<input type="checkbox" name="option1" id="option1" class="option" />
+						<label for="option1" class="checkmark"></label>
+						<label for="option1">Подача далее 15 км от города</label>
+					</div>
+					<div class="option__item">
+						<input type="checkbox" name="option2" id="option2" class="option" />
+						<label for="option2" class="checkmark"></label>
+						<label for="option2">Детское кресло с креплениями</label>
+					</div>
+					<div class="option__item">
+						<input type="checkbox" name="option3" id="option3" class="option" />
+						<label for="option3" class="checkmark"></label>
+						<label for="option3">Комплект свадебных украшений</label>
+					</div>
+					<div class="option__item">
+						<input type="checkbox" name="option4" id="option4" class="option" />
+						<label for="option4" class="checkmark"></label>
+						<label for="option4">Дополнительная страховка</label>
+					</div>
+				</div>
+			</div>
+		</form>
+		<form action="#" class="form form2">
+			<div class="form__item">
+				<h2 class="heading">Ваш заказ</h2>
+				<div class="order"> <span>Тариф:</span>
+					<output id="order_tariff">—</output>
+				</div>
+				<div class="order"> <span>Срок аренды:</span>
+					<output id="order_time">—</output>
+				</div>
+				<div class="order"> <span>Дополнительно:</span>
+					<output id="order_option">—</output>
+				</div>
+			</div>
+			<div class="form__item">
+				<h2 class="heading">Итоговая стоимость поездки</h2>
+				<output class="total" id="total">0</output>
+			</div>
+		</form>
+	</div>
+	<script src="app.js"></script>
+</body>
+</html>
