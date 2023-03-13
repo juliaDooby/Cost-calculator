@@ -1,7 +1,7 @@
 ### Динамический калькулятор расчета стоимости аренды автомобиля 
 ### / Dynamic Cost-calculator for calculating the cost of renting a car
 
-# => Ветка Master
+`## => Ветка Master`
 
 ---
 
