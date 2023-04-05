@@ -3,8 +3,6 @@
 
 https://juliadooby.github.io/Cost-calculator/
 
-`На Ветке Master`
-
 ---
 
 ### Стек / Stack: 
