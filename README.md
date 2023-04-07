@@ -1,7 +1,7 @@
 ### Динамический калькулятор расчета стоимости аренды автомобиля 
 ### / Dynamic Cost-calculator for calculating the cost of renting a car
 
-![chessCover](https://github.com/JuliaMiroshnichenko/Cost-calculator/blob/master/image/cost-car-calculcator.jpg)
+![costCover](https://github.com/JuliaMiroshnichenko/Cost-calculator/blob/master/image/cost-car-calculcator.jpg)
 
   [Посмотрите сами](https://juliadooby.github.io/Cost-calculator/)
 
