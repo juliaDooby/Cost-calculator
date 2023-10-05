@@ -14,7 +14,7 @@
 * The calculator calculates the total cost of the trip and displays information in the order field
 ---
 
-### Stack: 
+### Technologies Used:
 
 * HTML
 * CSS
